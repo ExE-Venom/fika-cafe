@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | FIKA COFFEE CO. - Hauz Khas Village</title>
+  <meta name="description" content="Discover the story behind FIKA COFFEE CO. Scandinavian fika tradition, ethical Indian coffee sourcing, and parkside serenity in Hauz Khas Village, New Delhi.">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- STICKY NAVIGATION BAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="FIKA COFFEE CO. Homepage">
+        <svg viewBox="0 0 24 24">
+          <path d="M18.5 3H6c-1.1 0-2 .9-2 2v9c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4V5c0-1.1-.9-2-2-2zm0 9c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2V5h12.5v7zM20 5h1v6c0 .55-.45 1-1 1h-1V5z"/>
+          <path d="M4 19h16v2H4z"/>
+        </svg>
+        <span>FIKA COFFEE CO.</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link active">About Us</a></li>
+          <li><a href="menu.html" class="nav-link">Menu</a></li>
+          <li><a href="enquiry.html" class="nav-link">Enquiry</a></li>
+          <li><a href="privacy.html" class="nav-link">Privacy</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta-group">
+        <a href="menu.html" class="btn nav-cta-menu">Menu 🍷</a>
+        <a href="index.html#location-map" class="btn nav-cta-locate">Locate US 📍</a>
+      </div>
+
+      <button class="mobile-toggle" aria-label="Toggle Navigation Menu">☰</button>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div class="mobile-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Menu">
+    <div>
+      <div class="mobile-drawer-header">
+        <span class="brand-logo" style="font-size:1.2rem;">☕ FIKA COFFEE CO.</span>
+        <button class="mobile-drawer-close" style="background:none; border:none; font-size:1.5rem; cursor:pointer;" aria-label="Close Mobile Menu">&times;</button>
+      </div>
+      <ul class="mobile-drawer-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link active">About Us</a></li>
+        <li><a href="menu.html" class="nav-link">Menu</a></li>
+        <li><a href="enquiry.html" class="nav-link">Enquiry</a></li>
+        <li><a href="privacy.html" class="nav-link">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:0.75rem; margin-top:2rem;">
+      <a href="menu.html" class="btn btn-primary" style="width:100%;">Menu 🍷</a>
+      <a href="index.html#location-map" class="btn btn-secondary" style="width:100%;">Locate US 📍</a>
+    </div>
+  </aside>
+
+  <!-- PAGE HEADER HERO -->
+  <section style="position:relative; background: linear-gradient(135deg, rgba(30, 18, 12, 0.88) 0%, rgba(20, 11, 7, 0.94) 100%), url('https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1600&q=80') center/cover; padding-top: calc(var(--nav-height) + 4.5rem); padding-bottom: 5rem; color: white; text-align: center; overflow:hidden;">
+    <div class="hero-mesh-overlay"></div>
+    <div class="container" style="position:relative; z-index:2;">
+      <span class="section-subtitle" style="color:var(--clr-terracotta);">Our Roots & Vision</span>
+      <h1 class="hero-title" style="font-size: clamp(2.4rem, 5.5vw, 4rem);">The Story of FIKA</h1>
+      <p style="color:#E2D7CD; max-width:620px; margin: 0 auto; font-size:1.15rem; line-height:1.7;">
+        Bringing the cherished Swedish culture of slowing down and connecting over warm coffee to Delhi’s most artistic neighborhood.
+      </p>
+    </div>
+  </section>
+
+  <!-- MARQUEE TICKER BANNER -->
+  <div class="marquee-wrapper">
+    <div class="marquee-content">
+      <div class="marquee-item"><span>✦</span> THE SWEDISH RITUAL OF SLOWING DOWN</div>
+      <div class="marquee-item"><span>✦</span> ARAKU & CHIKMAGALUR ESTATES</div>
+      <div class="marquee-item"><span>✦</span> OAT MILK & VEGAN FRIENDLY</div>
+      <div class="marquee-item"><span>✦</span> PARKSIDE SANCTUARY IN HAUZ KHAS</div>
+      <div class="marquee-item"><span>✦</span> THE SWEDISH RITUAL OF SLOWING DOWN</div>
+      <div class="marquee-item"><span>✦</span> ARAKU & CHIKMAGALUR ESTATES</div>
+      <div class="marquee-item"><span>✦</span> OAT MILK & VEGAN FRIENDLY</div>
+      <div class="marquee-item"><span>✦</span> PARKSIDE SANCTUARY IN HAUZ KHAS</div>
+    </div>
+  </div>
+
+  <!-- OUR STORY SECTION -->
+  <section class="section-padding">
+    <div class="container">
+      <div style="display:grid; grid-template-columns: 1.1fr 1fr; gap:3.5rem; align-items:center;">
+        <div data-reveal="left">
+          <span class="section-subtitle">Born in Hauz Khas</span>
+          <h2 class="section-title">The Art of Taking a Break</h2>
+          <p style="font-size:1.08rem; margin-bottom:1.25rem;">
+            FIKA COFFEE CO. was created out of a desire to build a sanctuary amidst Delhi’s fast-paced energy. In Swedish, <em>Fika</em> is not just drinking coffee—it is a mandatory daily ritual of pausing your work, catching your breath, and connecting deeply with the people around you.
+          </p>
+          <p style="font-size:1.08rem; margin-bottom:1.25rem;">
+            When we discovered this quiet corner in Hauz Khas Village facing the lush foliage of Deer Park, we knew it was the perfect canvas. We designed FIKA with warm oak timber, soft Scandinavian lighting, and wide open windows that let in natural breeze and morning birdsong.
+          </p>
+          <p style="font-size:1.08rem;">
+            Whether you come in solo with your favorite notebook, meet a long-time friend over hot cinnamon buns, or spend an afternoon working beside our plants, FIKA is your home away from home.
+          </p>
+        </div>
+        <div data-reveal="right" style="border-radius:var(--radius-lg); overflow:hidden; box-shadow:var(--shadow-lg);">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1000&q=80" alt="FIKA Coffee Co. interior seating and atmosphere" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOURCING & ETHICS -->
+  <section class="section-padding" style="background:var(--clr-sand);">
+    <div class="container">
+      <div class="section-header text-center" style="margin-left:auto; margin-right:auto;" data-reveal>
+        <span class="section-subtitle">Conscious Coffee</span>
+        <h2 class="section-title">Ethical Sourcing & Artisanal Craft</h2>
+        <p class="section-desc">Every cup tells a story of direct-trade partnerships with shade-grown coffee estates in Southern India.</p>
+      </div>
+
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:2rem;">
+        <div class="amenity-card" data-reveal class="stagger-1">
+          <div class="amenity-icon">🌱</div>
+          <h3 class="amenity-title">100% Indian Single Origins</h3>
+          <p style="font-size:0.95rem;">We source directly from high-elevation estates in Araku Valley (Andhra Pradesh) and Chikmagalur (Karnataka). Beans are roasted in small batches to preserve delicate notes of stone fruit, cacao, and wild spices.</p>
+        </div>
+
+        <div class="amenity-card" data-reveal class="stagger-2">
+          <div class="amenity-icon">🤝</div>
+          <h3 class="amenity-title">Fair Trade & Local Bakes</h3>
+          <p style="font-size:0.95rem;">Our coffee farmers earn above fair-trade market rates. Every pastry—from our signature cardamom buns to sourdough croissants—is hand-braided daily using local organic flour and cultured butter.</p>
+        </div>
+
+        <div class="amenity-card" data-reveal class="stagger-3">
+          <div class="amenity-icon">♻️</div>
+          <h3 class="amenity-title">Eco-Conscious Promise</h3>
+          <p style="font-size:0.95rem;">All take-away cups, straws, and food containers are 100% plant-based and compostable. We proudly offer Swedish Oat Milk alternatives at zero extra charge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AMENITIES & SPACE -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header text-center" style="margin-left:auto; margin-right:auto;" data-reveal>
+        <span class="section-subtitle">Comfort & Convenience</span>
+        <h2 class="section-title">Thoughtfully Designed Space</h2>
+        <p class="section-desc">Equipped with everything you need for productive remote work or relaxed weekend catch-ups.</p>
+      </div>
+
+      <div class="amenity-grid">
+        <div class="amenity-card" data-reveal class="stagger-1">
+          <div class="amenity-icon">⚡</div>
+          <h3 class="amenity-title">High-Speed Fiber Wi-Fi</h3>
+          <p style="font-size:0.9rem;">Seamless 300 Mbps wireless connectivity for video calls, uploads, and uninterrupted work.</p>
+        </div>
+
+        <div class="amenity-card" data-reveal class="stagger-2">
+          <div class="amenity-icon">🔌</div>
+          <h3 class="amenity-title">Power Outlets Everywhere</h3>
+          <p style="font-size:0.9rem;">Dedicated universal charging sockets located at every single desk and booth seat.</p>
+        </div>
+
+        <div class="amenity-card" data-reveal class="stagger-3">
+          <div class="amenity-icon">🐾</div>
+          <h3 class="amenity-title">Dog-Friendly Outdoor Patio</h3>
+          <p style="font-size:0.9rem;">Shaded garden seating where your four-legged companions are always welcomed with water bowls.</p>
+        </div>
+
+        <div class="amenity-card" data-reveal class="stagger-4">
+          <div class="amenity-icon">♿</div>
+          <h3 class="amenity-title">Wheelchair Accessible</h3>
+          <p style="font-size:0.9rem;">Step-free ground level entry ramp and accessible restroom facilities for all guests.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="section-padding" style="background:var(--clr-cream-bg); border-top:1px solid var(--clr-border);">
+    <div class="container">
+      <div class="section-header text-center" style="margin-left:auto; margin-right:auto;" data-reveal>
+        <span class="section-subtitle">Visual Tour</span>
+        <h2 class="section-title">Life at FIKA</h2>
+      </div>
+
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:1.5rem;" data-reveal="zoom">
+        <div style="border-radius:var(--radius-md); overflow:hidden; height:260px; box-shadow:var(--shadow-sm);">
+          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80" alt="Barista pouring pour over V60 coffee" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+        </div>
+        <div style="border-radius:var(--radius-md); overflow:hidden; height:260px; box-shadow:var(--shadow-sm);">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" alt="Freshly baked Swedish cinnamon buns" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+        </div>
+        <div style="border-radius:var(--radius-md); overflow:hidden; height:260px; box-shadow:var(--shadow-sm);">
+          <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=80" alt="Coffee beans roasting" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+        </div>
+        <div style="border-radius:var(--radius-md); overflow:hidden; height:260px; box-shadow:var(--shadow-sm);">
+          <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80" alt="Cozy seating looking out at Hauz Khas Deer Park" style="width:100%; height:100%; object-fit:cover;" loading="lazy">
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top: 3.5rem;" data-reveal>
+        <a href="menu.html" class="btn btn-primary">Explore Our Menu 🍷</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GLOBAL FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">☕ FIKA COFFEE CO.</a>
+          <p class="footer-text">Scandinavian coffee culture in Hauz Khas Village, New Delhi. Specialty Indian origin beans, sourdough bakes, and peaceful park views.</p>
+        </div>
+        <div>
+          <h3 class="footer-title">Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="enquiry.html">Enquiry & Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Visit Us</h3>
+          <p style="font-size:0.875rem; color:#A89A8F; margin-bottom:0.5rem;">T40, Hauz Khas Village, New Delhi</p>
+          <p style="font-size:0.875rem; color:#A89A8F; margin-bottom:0.5rem;">Daily: 8:00 AM – 11:00 PM</p>
+          <a href="tel:+918130383199" style="font-size:0.875rem; color:var(--clr-terracotta); font-weight:600;">+91 81303 83199</a>
+        </div>
+        <div>
+          <h3 class="footer-title">Quick Actions</h3>
+          <div class="footer-ctas">
+            <a href="menu.html" class="btn btn-primary" style="width:100%;">Menu 🍷</a>
+            <a href="index.html#location-map" class="btn btn-secondary" style="width:100%;">Locate US 📍</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 FIKA COFFEE CO. All Rights Reserved.</div>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="#" onclick="event.preventDefault(); window.openCookiePreferencesModal();">Cookie Preferences</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/cookie-banner.js"></script>
+</body>
+</html>

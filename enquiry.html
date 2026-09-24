@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Enquiry | FIKA COFFEE CO. - Hauz Khas Village</title>
+  <meta name="description" content="Get in touch with FIKA COFFEE CO. Location directions, parking info, phone number, and event/table enquiry form for our Hauz Khas Village cafe.">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- STICKY NAVIGATION BAR -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="FIKA COFFEE CO. Homepage">
+        <svg viewBox="0 0 24 24">
+          <path d="M18.5 3H6c-1.1 0-2 .9-2 2v9c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4V5c0-1.1-.9-2-2-2zm0 9c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2V5h12.5v7zM20 5h1v6c0 .55-.45 1-1 1h-1V5z"/>
+          <path d="M4 19h16v2H4z"/>
+        </svg>
+        <span>FIKA COFFEE CO.</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="menu.html" class="nav-link">Menu</a></li>
+          <li><a href="enquiry.html" class="nav-link active">Enquiry</a></li>
+          <li><a href="privacy.html" class="nav-link">Privacy</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta-group">
+        <a href="menu.html" class="btn nav-cta-menu">Menu 🍷</a>
+        <a href="index.html#location-map" class="btn nav-cta-locate">Locate US 📍</a>
+      </div>
+
+      <button class="mobile-toggle" aria-label="Toggle Navigation Menu">☰</button>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div class="mobile-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Menu">
+    <div>
+      <div class="mobile-drawer-header">
+        <span class="brand-logo" style="font-size:1.2rem;">☕ FIKA COFFEE CO.</span>
+        <button class="mobile-drawer-close" style="background:none; border:none; font-size:1.5rem; cursor:pointer;" aria-label="Close Mobile Menu">&times;</button>
+      </div>
+      <ul class="mobile-drawer-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
+        <li><a href="menu.html" class="nav-link">Menu</a></li>
+        <li><a href="enquiry.html" class="nav-link active">Enquiry</a></li>
+        <li><a href="privacy.html" class="nav-link">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:0.75rem; margin-top:2rem;">
+      <a href="menu.html" class="btn btn-primary" style="width:100%;">Menu 🍷</a>
+      <a href="index.html#location-map" class="btn btn-secondary" style="width:100%;">Locate US 📍</a>
+    </div>
+  </aside>
+
+  <!-- PAGE HEADER -->
+  <section style="position:relative; background: linear-gradient(135deg, rgba(30, 18, 12, 0.9) 0%, rgba(20, 11, 7, 0.95) 100%), url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1600&q=80') center/cover; padding-top: calc(var(--nav-height) + 4rem); padding-bottom: 4.5rem; color: white; text-align: center; overflow:hidden;">
+    <div class="hero-mesh-overlay"></div>
+    <div class="container" style="position:relative; z-index:2;">
+      <span class="section-subtitle" style="color:var(--clr-terracotta);">Get In Touch</span>
+      <h1 class="hero-title" style="font-size: clamp(2.4rem, 5.5vw, 4rem);">Contact & Enquiries</h1>
+      <p style="color:#E2D7CD; max-width:620px; margin: 0 auto; font-size:1.15rem;">
+        Have a question about table reservations, coffee workshops, private events, or dietary needs? Send us a message below.
+      </p>
+    </div>
+  </section>
+
+  <!-- MARQUEE TICKER BANNER -->
+  <div class="marquee-wrapper">
+    <div class="marquee-content">
+      <div class="marquee-item"><span>✦</span> WE WOULD LOVE TO HEAR FROM YOU</div>
+      <div class="marquee-item"><span>✦</span> TABLE RESERVATIONS & PRIVATE EVENTS</div>
+      <div class="marquee-item"><span>✦</span> HAUZ KHAS VILLAGE NEW DELHI</div>
+      <div class="marquee-item"><span>✦</span> WE WOULD LOVE TO HEAR FROM YOU</div>
+      <div class="marquee-item"><span>✦</span> TABLE RESERVATIONS & PRIVATE EVENTS</div>
+      <div class="marquee-item"><span>✦</span> HAUZ KHAS VILLAGE NEW DELHI</div>
+    </div>
+  </div>
+
+  <!-- MAIN CONTACT & FORM CONTENT -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- Left Column: Contact Details & Parking Info -->
+        <div data-reveal="left">
+          <span class="section-subtitle">Reach Out Directly</span>
+          <h2 class="section-title" style="font-size:2.2rem; margin-bottom:1.5rem;">Cafe Information</h2>
+
+          <!-- Contact Cards Grid -->
+          <div style="display:flex; flex-direction:column; gap:1.25rem; margin-bottom:2.5rem;">
+            
+            <div style="background:white; padding:1.5rem; border-radius:var(--radius-md); border:1px solid var(--clr-border); display:flex; gap:1rem; align-items:flex-start; box-shadow:var(--shadow-sm);">
+              <div style="width:44px; height:44px; border-radius:50%; background:var(--clr-sand); color:var(--clr-espresso); display:flex; align-items:center; justify-content:center; font-size:1.25rem; flex-shrink:0;">
+                📞
+              </div>
+              <div>
+                <strong style="display:block; font-family:var(--ff-accent);">Phone Number</strong>
+                <a href="tel:+918130383199" style="color:var(--clr-terracotta); font-size:1.15rem; font-weight:800;">
+                  +91 81303 83199
+                </a>
+                <span style="display:block; font-size:0.825rem; color:var(--text-muted); margin-top:2px;">Click to call directly from mobile</span>
+              </div>
+            </div>
+
+            <div style="background:white; padding:1.5rem; border-radius:var(--radius-md); border:1px solid var(--clr-border); display:flex; gap:1rem; align-items:flex-start; box-shadow:var(--shadow-sm);">
+              <div style="width:44px; height:44px; border-radius:50%; background:var(--clr-sand); color:var(--clr-espresso); display:flex; align-items:center; justify-content:center; font-size:1.25rem; flex-shrink:0;">
+                📍
+              </div>
+              <div>
+                <strong style="display:block; font-family:var(--ff-accent);">Full Address</strong>
+                <p style="font-size:0.95rem; color:var(--clr-espresso); font-weight:600; margin-bottom:0.4rem;">
+                  T40, Hauz Khas Village, Deer Park, Hauz Khas, New Delhi, Delhi 110016
+                </p>
+                <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
+                  <a href="https://share.google/CQIWL8gCwGecZmHi3" target="_blank" rel="noopener noreferrer" style="color:var(--clr-terracotta); font-weight:700; font-size:0.875rem;">
+                    Open Directions Link ↗
+                  </a>
+                  <button data-copy-address style="background:none; border:none; color:var(--clr-sage); font-weight:700; font-size:0.875rem; cursor:pointer;">
+                    📋 Copy Address
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div style="background:white; padding:1.5rem; border-radius:var(--radius-md); border:1px solid var(--clr-border); display:flex; gap:1rem; align-items:flex-start; box-shadow:var(--shadow-sm);">
+              <div style="width:44px; height:44px; border-radius:50%; background:var(--clr-sand); color:var(--clr-espresso); display:flex; align-items:center; justify-content:center; font-size:1.25rem; flex-shrink:0;">
+                ✉️
+              </div>
+              <div>
+                <strong style="display:block; font-family:var(--ff-accent);">Email Enquiries</strong>
+                <a href="mailto:hello@fikacoffee.co" style="color:var(--clr-terracotta); font-size:1.05rem; font-weight:700;">
+                  hello@fikacoffee.co
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Parking & Transit Info Block -->
+          <div style="background:var(--clr-sand); padding:2.25rem; border-radius:var(--radius-md); border:1px solid var(--clr-border);">
+            <h3 style="font-family:var(--ff-heading); font-size:1.35rem; margin-bottom:1.25rem; color:var(--clr-espresso); display:flex; align-items:center; gap:0.6rem;">
+              <span>🅿️</span> Parking & Transit Information
+            </h3>
+            <ul style="list-style:none; display:flex; flex-direction:column; gap:0.95rem; font-size:0.95rem; color:var(--text-main);">
+              <li style="display:flex; gap:0.6rem; align-items:flex-start;">
+                <span style="color:var(--clr-terracotta); font-weight:bold;">•</span>
+                <div><strong>Public Parking:</strong> Paid public parking is available at the entrance of Hauz Khas Village (Main HKV Gate, 150m walk to cafe).</div>
+              </li>
+              <li style="display:flex; gap:0.6rem; align-items:flex-start;">
+                <span style="color:var(--clr-terracotta); font-weight:bold;">•</span>
+                <div><strong>Valet Service:</strong> Weekend valet parking assistance is available directly outside the main HKV security checkpost.</div>
+              </li>
+              <li style="display:flex; gap:0.6rem; align-items:flex-start;">
+                <span style="color:var(--clr-terracotta); font-weight:bold;">•</span>
+                <div><strong>Delhi Metro:</strong> Nearest station is <em>Hauz Khas Metro Station</em> (Yellow Line / Magenta Line - Exit 2) or <em>IIT Station</em> (Magenta Line). 5 mins via autorickshaw or cab.</div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Enquiry Form -->
+        <div class="contact-card" data-reveal="right">
+          <h2 class="section-title" style="font-size:2rem; margin-bottom:0.5rem;">Send an Enquiry</h2>
+          <p style="margin-bottom:2rem; font-size:0.95rem;">Please fill out the form below. All fields marked with * are required.</p>
+
+          <!-- Formspree Static Form Handler -->
+          <form id="enquiry-form" action="https://formspree.io/f/xknqfika" method="POST" novalidate>
+            
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name *</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Ananya Sharma" required>
+            </div>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address *</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="name@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="phone" class="form-label">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="+91 98765 43210" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject / Purpose *</label>
+              <select id="subject" name="subject" class="form-control" required>
+                <option value="">-- Select Subject --</option>
+                <option value="General Enquiry">General Enquiry</option>
+                <option value="Table Reservation">Table / Group Reservation</option>
+                <option value="Private Event">Private Event / Space Hire</option>
+                <option value="Coffee Workshop">Coffee & Roasting Workshops</option>
+                <option value="Feedback">Customer Feedback</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Your Message *</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Tell us how we can help you or what you'd like to know..." required></textarea>
+            </div>
+
+            <!-- MANDATORY DATA SHARING CONSENT CHECKBOX -->
+            <div class="consent-checkbox-wrapper">
+              <label class="consent-label">
+                <input type="checkbox" id="data-consent-checkbox" name="data_sharing_consent" value="Granted">
+                <span>
+                  ☐ I consent to having the data filled in this form shared with the cafe owner so they can respond to my enquiry.
+                </span>
+              </label>
+              <div id="consent-error-msg" class="consent-error-msg"></div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width:100%; font-size:1.05rem; padding:1rem;">
+              Submit Enquiry ✉️
+            </button>
+
+            <span style="display:block; text-align:center; font-size:0.825rem; color:var(--text-light); margin-top:1.25rem;">
+              Your information is securely handled via third-party form routing (Formspree) in compliance with our <a href="privacy.html" style="text-decoration:underline;">Privacy Policy</a>.
+            </span>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GLOBAL FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">☕ FIKA COFFEE CO.</a>
+          <p class="footer-text">Scandinavian coffee culture in Hauz Khas Village, New Delhi. Specialty Indian origin beans, sourdough bakes, and peaceful park views.</p>
+        </div>
+        <div>
+          <h3 class="footer-title">Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="enquiry.html">Enquiry & Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer-title">Visit Us</h3>
+          <p style="font-size:0.875rem; color:#A89A8F; margin-bottom:0.5rem;">T40, Hauz Khas Village, New Delhi</p>
+          <p style="font-size:0.875rem; color:#A89A8F; margin-bottom:0.5rem;">Daily: 8:00 AM – 11:00 PM</p>
+          <a href="tel:+918130383199" style="font-size:0.875rem; color:var(--clr-terracotta); font-weight:600;">+91 81303 83199</a>
+        </div>
+        <div>
+          <h3 class="footer-title">Quick Actions</h3>
+          <div class="footer-ctas">
+            <a href="menu.html" class="btn btn-primary" style="width:100%;">Menu 🍷</a>
+            <a href="index.html#location-map" class="btn btn-secondary" style="width:100%;">Locate US 📍</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 FIKA COFFEE CO. All Rights Reserved.</div>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="#" onclick="event.preventDefault(); window.openCookiePreferencesModal();">Cookie Preferences</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/cookie-banner.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>
